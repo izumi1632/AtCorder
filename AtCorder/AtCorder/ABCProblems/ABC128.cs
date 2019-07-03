@@ -18,9 +18,18 @@ namespace AtCorder.ABC
             throw new NotImplementedException();
         }
 
+
+        /// <summary>
+        /// switches
+        /// </summary>
         public override void C()
         {
-            throw new NotImplementedException();
+        
+
+
+
+
+
         }
 
         public override void D()

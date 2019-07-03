@@ -24,7 +24,7 @@ namespace AtCorder.ABC
         /// </summary>
         public override void C()
         {
-            var NM = ReadSplitLong();
+            var NM = ReadSplitInt();
             var n = NM[0];
             var m = NM[1];
             var a = ReadSplitLongLines(m);

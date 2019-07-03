@@ -51,6 +51,17 @@ namespace AtCorder.ABC
             return Enumerable.Range(0, n).Select(x => ReadSplitLong()).ToArray();
         }
 
+        public static long[][] ReadSplitLongLines(long n)
+        {
+            var ret = new List<long[]>();
+            for (long i = 0; i < n; i++)
+            {
+                ret.Add(ReadSplitLong().ToArray());
+            }
+
+            return ret.ToArray();
+        }
+
         #endregion
 
     }
