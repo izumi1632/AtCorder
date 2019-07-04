@@ -10,46 +10,7 @@ namespace AtCorder
     {
         static void Main(string[] args)
         {
-
-            var NM = ReadSplitInt();
-            var n = NM[0];
-            var m = NM[1];
-            var a = ReadSplitLongLines(m);
-
-            var dp = new long[n + 1];
-            var instrusion = new bool[n + 1];
-
-            // 1段目への移動方法数
-            dp[0] = 1;
-
-            // 侵入負荷の段数設定（trueが侵入負荷）
-            for (long i = 0; i < m; i++)
-            {
-                instrusion[a[i][0]] = true;
-            }
-
-            for (long i = 0; i <= n; i++)
-            {
-                // 1段か2段先へ移動
-                for (long j = 1; j <= 2; j++)
-                {
-                    if (i + j <= n)
-                    {
-                        // 侵入不可への移動はできない
-                        if (instrusion[i + j] != true)
-                        {
-                            // i番目からi+j番目への移動
-                            dp[i + j] += dp[i];
-                            dp[i + j] %= 1000000007;
-                        }
-                    }
-                }
-            }
-
-
-            //Console.WriteLine(dp[n] % 1000000007); // ←ループ内で行わずにここだけで割るとエラー
-            Console.WriteLine(dp[n]);
-
+            bit全探索.bitAllSearch.bitAll();
 
             Console.ReadKey();
         }

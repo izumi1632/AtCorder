@@ -45,6 +45,7 @@
     <Compile Include="ABCProblems\Base\ABC.cs" />
     <Compile Include="ABCProblems\ABC129.cs" />
     <Compile Include="ABCProblems\ABC128.cs" />
+    <Compile Include="bit全探索\bitAllSearch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
