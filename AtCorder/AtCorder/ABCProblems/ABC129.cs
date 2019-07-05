@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AtCorder.ABCProblems.Base;
 
-namespace AtCorder.ABC
+namespace AtCorder.ABCProblems
 {
     public class ABC129 : ABC
     {
