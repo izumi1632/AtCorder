@@ -48,6 +48,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ABCProblems\ABC127.cs" />
+    <Compile Include="ABCProblems\ARC004.cs" />
+    <Compile Include="ABCProblems\ABC051.cs" />
+    <Compile Include="ABCProblems\ABC085.cs" />
+    <Compile Include="ABCProblems\ARC061.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
