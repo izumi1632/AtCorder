@@ -53,6 +53,7 @@
     <Compile Include="ABCProblems\ABC085.cs" />
     <Compile Include="ABCProblems\ARC061.cs" />
     <Compile Include="ABCProblems\ABC079.cs" />
+    <Compile Include="ABCProblems\ABC104.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
