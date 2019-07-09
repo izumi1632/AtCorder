@@ -11,7 +11,6 @@ namespace AtCorder
         static void Main(string[] args)
         {
 
-          
 
             Console.ReadKey();
         }
