@@ -56,10 +56,14 @@
     <Compile Include="ABCProblems\ABC104.cs" />
     <Compile Include="ABCProblems\ARC029.cs" />
     <Compile Include="ABCProblems\ABC002.cs" />
+    <Compile Include="DFS\DFS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="test.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DFS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
