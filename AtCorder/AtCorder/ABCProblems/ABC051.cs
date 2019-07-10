@@ -11,7 +11,7 @@ namespace AtCorder.ABCProblems
 
         public override void A()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(Console.ReadLine().Replace(',', ' '));
         }
 
         public override void B()
